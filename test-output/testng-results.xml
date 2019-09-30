@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28449" started-at="2019-09-28T07:16:39Z" finished-at="2019-09-28T07:17:08Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="28430" started-at="2019-09-28T07:16:39Z" finished-at="2019-09-28T07:17:08Z">
+      <class name="com.flipkart.Flipkart">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.flipkart.Flipkart@21213b92]" name="browser" duration-ms="7409" started-at="2019-09-28T12:46:39Z" finished-at="2019-09-28T12:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.flipkart.Flipkart@21213b92]" name="login" duration-ms="941" started-at="2019-09-28T12:46:47Z" depends-on-methods="com.flipkart.Flipkart.browser" finished-at="2019-09-28T12:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="cart()[pri:2, instance:com.flipkart.Flipkart@21213b92]" name="cart" duration-ms="19374" started-at="2019-09-28T12:46:48Z" depends-on-methods="com.flipkart.Flipkart.login" finished-at="2019-09-28T12:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.Flipkart@21213b92]" name="closeBrowser" is-config="true" duration-ms="693" started-at="2019-09-28T12:47:07Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.flipkart.Flipkart -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3" started-at="2019-09-28T07:17:08Z" finished-at="2019-09-28T07:17:08Z">
+      <class name="com.testings.TestngDemo">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2019-09-28T12:46:39Z" finished-at="2019-09-28T12:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="testMethod" duration-ms="1" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="beforeMethodSecond()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="beforeMethodSecond" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSecond -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testings.TestngDemo@210366b4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-28T12:47:08Z" finished-at="2019-09-28T12:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testings.TestngDemo -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

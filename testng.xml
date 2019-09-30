@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK" parallel="tests">
+  <test name="Test1">
+  <parameter name="username" value="sahilagrawal36@gmail.com"/>
+    <classes>
+      <class name="com.flipkart.Flipkart"/>
+    </classes>
+    
+    
+     
+  <test name="Test2">
+    <classes>
+      <class name="com.testings.TestngDemo"/>
+    </classes>
+    </test>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
